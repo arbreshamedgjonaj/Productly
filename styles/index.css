@@ -1,57 +1,110 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
 
+.header {
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 185px;
+    max-width: 32px;
 }
-.header{
-   margin-top: 20px;
-   margin-left: 20px;
-   max-width: 185px;
-   max-width: 32px;
+
+h2 {
+    font-size: 44px;
 }
-.container{
+
+h3 {
+    font-size: 36px;
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1126px;
-    max-height: 496px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding: 15px;
+    border-color: white;
 }
 
-.first-section{
-   max-width:  518px;
-   max-height: 331px;  
+.first-section {
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding: 15px;
+    position: relative;
 
 }
-.container-image{
+
+.check-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.check-item {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.check-item img {
+    width: 35px;
+    height: 35px;
+}
+
+.check-item p {
+    margin-left: 30px;
+}
+
+.container-image {
     max-width: 605px;
     max-height: 496px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding: 15px;
 }
 
-.btn-getstarted{
+.btn-getstarted {
     width: 175px;
     height: 53px;
     background-color: orange;
     color: white;
     border: none;
     border-radius: 4px;
-
+    margin-top: 50px;
 }
-.Watch-video{
+
+.Watch-video {
     width: 175px;
     height: 53px;
     background-color: white;
     color: orange;
     border: none;
     border-radius: 4px;
+    margin-top: 50px;
 }
-.container-one
-{
+
+.container-one {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin: 10px;
-
-
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding: 15px;
 }
-.card{
+
+.text-middle {
+    text-align: center;
+}
+
+.card {
     display: flex;
+    flex-direction: row;
+    margin: 50px;
+    align-items: start;
+    max-height: 178px;
 }
