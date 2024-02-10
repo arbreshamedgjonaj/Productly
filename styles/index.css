@@ -4,10 +4,9 @@ body {
 }
 
 .header {
+    display: flex;
     margin-top: 20px;
     margin-left: 20px;
-    max-width: 185px;
-    max-width: 32px;
 }
 
 h2 {
@@ -22,9 +21,12 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    /*margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 20px;
+    margin-left: 20px;*/
     padding: 15px;
     border-color: white;
 }
@@ -60,7 +62,9 @@ h3 {
 .container-image {
     max-width: 605px;
     max-height: 496px;
+    width: 100%;
     padding: 20px;
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 20px;
@@ -77,23 +81,38 @@ h3 {
     margin-top: 50px;
 }
 
-.Watch-video {
+.watch-video {
     width: 175px;
     height: 53px;
     background-color: white;
-    color: orange;
     border: none;
     border-radius: 4px;
     margin-top: 50px;
+    margin-left: 20px;
+    display: inline-flex;
+    align-items: center;
 }
 
+.watch-video a {
+    color: orange;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+.watch-video:hover, .btn-getstarted:hover, ul li:hover
+{
+    background-color:rgb(243, 193, 100);
+    max-width: fit-content;
+}
 .container-one {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin-top: 50px;
+    max-width: 1110px;
+    margin: auto;
+    /*margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 20px;
+    margin-left: 20px;*/
     padding: 15px;
 }
 
